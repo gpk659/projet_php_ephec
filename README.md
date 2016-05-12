@@ -1,1 +1,3 @@
-# projet_php_ephec
+Projet php :
+  forum en php, ajax et jquery
+  
