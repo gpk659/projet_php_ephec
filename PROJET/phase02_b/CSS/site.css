@@ -1,0 +1,64 @@
+.menu a.selected{
+    color:white;
+    background-color: #444;
+}
+.menu li a {
+    padding: 5px 10px;
+    margin: 0;
+    background: #181A12;
+    color: brown;
+    border: 1px solid #181A12 ;
+    text-decoration: none;
+}
+#menu li a{
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-top-left-radius: 10px; /* pour Chrome */
+    -webkit-border-top-right-radius: 10px; /* pour Chrome */
+
+}
+#sous-menu li a{
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu h1{
+    line-height: 1em;
+    font-size: 1.25em;
+    margin: .25em 0 .1em 0;
+}
+.connexion label, .contact label{ width: 150px;
+    display: block;
+    float: left;
+}
+.inscription label{ width: 200px;
+    display: block;
+    float: left;
+}
+.profil p label{ width: 210px;
+    display: block;
+    float: left;
+}
+.config p label{
+    width: 100px;
+    display: block;
+    float: left;
+}
+.commentaire{
+    color: darkgray;
+    font-style: italic;
+    background-color: rgb(255, 250, 250);
+    opacity: 0.75;
+    border: 1px dotted gray;
+    padding: 0.5em;
+    /* --- arrondis --- */
+    -moz-border-radius: .5em .5em;
+    -webkit-border-radius: .5em .5em;
+    border-radius: .5em .5em;
+    -webkit-border-top-left-radius: .5em; /* pour Chrome */
+    -webkit-border-top-right-radius: .5em; /* pour Chrome */
+}
